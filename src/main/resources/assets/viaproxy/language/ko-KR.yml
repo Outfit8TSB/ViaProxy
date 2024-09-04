@@ -1,0 +1,120 @@
+# ViaProxy language file
+#
+# Language contribution guidelines:
+# - Please use the same file content structure as in the en_US language file.
+# - Use the en_US language file as a reference/template for your language file.
+# - Keep the translations understandable and precise.
+# - Do not use or rely on machine translation (Google Translate, DeepL, etc.) exclusively.
+# - Do not copy an english translation into your language file. The en_US translation will be used as a fallback automatically.
+# - Include this header (untranslated) in your language file.
+
+# The display name of the language
+language.name=한국어 (대한민국)
+# The name of the author of the language file (Your name)
+language.author=Outfit8TSB
+
+generic.cancel=취소
+generic.could_not_open_url=링크를 열 수 없습니다: %s
+
+tab.general.name=일반
+tab.general.server_address.label=서버 주소:
+tab.general.server_address.tooltip=지원하는 주소 양식:\n- address\n- address:port\n- ClassiCube Direct URL
+tab.general.server_version.label=서버 버전:
+tab.general.minecraft_account.label=Minecraft 계정:
+tab.general.minecraft_account.option_no_account=계정을 사용하지 않습니다.
+tab.general.minecraft_account.option_select_account=설정된 계정을 사용합니다.
+tab.general.minecraft_account.option_openauthmod=OpenAuthMod를 사용합니다.
+tab.general.betacraft_auth.label=BetaCraft 인증기 (Classic 버전)
+tab.general.betacraft_auth.tooltip=BetaCraft 인증기는 온라인 모드가 활성화된 Classic 버전 서버에 연결할 수 있도록 합니다.
+tab.general.state.loading=ViaProxy를 불러오는 중...
+tab.general.state.start=시작
+tab.general.state.starting=시작하는 중...
+tab.general.state.stop=정지
+tab.general.state.running=ViaProxy를 시작했습니다! Minecraft 버전 %s로 %s에 연결하세요.
+tab.general.warning.ban_warning.line1=ViaProxy는 블록, 이동, 아이템과 같은 버전 간 차이로 인해 안티치트를 작동 시킬 수 있습니다.
+tab.general.warning.bedrock_warning.line1=ViaBedrock은 아직 개발 중이며 아직 일반 사용자가 사용하기에 준비가 되지 않았습니다.
+tab.general.warning.risk=위험을 감수하고 사용하세요!
+tab.general.error.no_server_version_selected=서버 버전을 선택해주세요!
+tab.general.error.invalid_classicube_url=잘못된 ClassiCube 링크입니다!
+tab.general.error.invalid_server_address=잘못된 서버 주소입니다!
+tab.general.error.invalid_bind_address=잘못된 바인드 주소입니다!
+tab.general.error.invalid_proxy_url=잘못된 프록시 링크입니다!
+tab.general.error.failed_to_start=ViaProxy를 시작할 수 없습니다! 포트가 사용 중인지 확인하시고 다시 시도하세요.
+
+tab.advanced.name=고급
+tab.advanced.bind_address.label=바인드 주소:
+tab.advanced.bind_address.tooltip=The address ViaProxy should accept incoming connections on.
+tab.advanced.proxy_url.label=Proxy URL:
+tab.advanced.proxy_url.tooltip=URL of a SOCKS(4/5)/HTTP(S) proxy which will be used for TCP connections.\nSupported formats:\n- type://address:port\n- type://username:password@address:port
+tab.advanced.proxy_online_mode.label=Proxy Online Mode
+tab.advanced.proxy_online_mode.tooltip=Enabling Proxy Online Mode requires your client to have a valid minecraft account.\nProxy Online Mode allows you to see skins on online mode servers and use the signed chat features.
+tab.advanced.legacy_skin_loading.label=Legacy Skin Loading
+tab.advanced.legacy_skin_loading.tooltip=Enabling Legacy Skin Loading allows you to see skins on <= 1.6.4 servers.
+tab.advanced.chat_signing.label=Chat signing
+tab.advanced.chat_signing.tooltip=Enables sending signed chat messages on >= 1.19 servers.
+tab.advanced.ignore_packet_translation_errors.label=Ignore packet translation errors
+tab.advanced.ignore_packet_translation_errors.tooltip=Enabling this will prevent getting disconnected from the server when a packet translation error occurs and instead only print the error in the console.\nThis may cause issues depending on the type of packet which failed to translate.
+tab.advanced.allow_beta_pinging.label=Allow <= b1.7.3 pinging
+tab.advanced.allow_beta_pinging.tooltip=Enabling this will allow you to ping <= b1.7.3 servers. This may cause issues with servers that block too frequent connections.
+tab.advanced.simple_voice_chat_support.label=Simple Voice Chat Support
+tab.advanced.simple_voice_chat_support.tooltip=Enables handling and rewriting of Simple Voice Chat mod packets.
+tab.advanced.fake_accept_resource_packs.label=Fake accept resource packs
+tab.advanced.fake_accept_resource_packs.tooltip=Accepts resource packs from the server without showing a prompt to the client.\nThis is required for servers that require a resource pack, but the client can't load it due to version differences.
+tab.advanced.create_viaversion_dump.label=Create ViaVersion dump
+tab.advanced.create_viaversion_dump.success=Copied ViaVersion dump link to clipboard.
+tab.advanced.upload_latest_log.label=Upload latest log file
+tab.advanced.upload_latest_log.success=Uploaded log file to %s (copied to clipboard)
+tab.advanced.upload_latest_log.error_generic=The log file could not be uploaded: %s
+tab.advanced.upload_latest_log.error_not_found=The log file could not be found.
+
+tab.accounts.name=계정
+tab.accounts.description.line1=To join online mode servers you have to add a minecraft account for ViaProxy to use. You can select an account by right clicking it. By default the first one will be used.
+tab.accounts.description.line2=If you change your account frequently, you can install OpenAuthMod on your client. This allows ViaProxy to use the account you are logged in with on the client.
+tab.accounts.list.context_menu.select=Select Account
+tab.accounts.list.context_menu.remove=Remove
+tab.accounts.list.context_menu.move_up=Move up ↑
+tab.accounts.list.context_menu.move_down=Move down ↓
+tab.accounts.add.title=Add Account
+tab.accounts.add_offline.label=Offline Account
+tab.accounts.add_offline.enter_username=Enter your offline mode username:
+tab.accounts.add_microsoft.label=Microsoft Account
+tab.accounts.add_bedrock.label=Bedrock Account
+tab.accounts.add.success=The account %s was added successfully.
+tab.accounts.add.timeout=The login request timed out.\nPlease login within %s seconds.
+
+tab.realms.name=Realms
+tab.realms.error_generic=Realms request could not be handled: %s
+tab.realms.error_generic_label=An unknown error occurred
+tab.realms.error_account=Could not refresh the selected account. This might be caused by outdated account tokens or rate limits. Wait a couple of seconds and try again. If the problem persists, remove and re-add your account.
+tab.realms.error_account_label=Account error
+tab.realms.no_account=No account selected
+tab.realms.unsupported_account=Unsupported account selected
+tab.realms.refreshing_account=Refreshing account...
+tab.realms.availability_check=Checking availability...
+tab.realms.unavailable=Your ViaProxy is outdated and not compatible with Minecraft Realms.\nPlease use the latest version of ViaProxy.
+tab.realms.loading_worlds=Loading worlds...
+tab.realms.no_worlds=No worlds found
+tab.realms.account=Account: %s
+tab.realms.release=Release
+tab.realms.snapshot=Snapshot
+tab.realms.join=Join
+tab.realms.joining=Joining...
+tab.realms.accept_tos=To use Minecraft Realms you have to accept the Terms of Service: %s
+tab.realms.expired=This Realm is expired
+tab.realms.incompatible=This Realms Minecraft version is too old or too new
+
+tab.ui_settings.name=UI Settings
+tab.ui_settings.language.label=Language:
+tab.ui_settings.language.completion=%s translated
+tab.ui_settings.language.author=by %s
+tab.ui_settings.language.success=Language changed to %s (%s). ViaProxy will now restart!
+
+popup.login_account.title=Add Account
+popup.login_account.instructions.browser=Please open the following URL in your browser:
+popup.login_account.instructions.close=The popup will close automatically after you have been logged in.
+
+popup.download.title=Downloading...
+
+popup.update.info=You are running an outdated version of ViaProxy!\nCurrent version: %s\nLatest version: %s
+popup.update.question=Do you want to update?
+popup.update.success=Downloaded the latest version of ViaProxy. ViaProxy will now restart!
