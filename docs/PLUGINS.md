@@ -14,3 +14,4 @@ Official plugins:
 
 Community plugins:
 - [ayunViaProxyLegacyIcon](https://github.com/ayunami2000/ayunViaProxyLegacyIcon): Add server icon for newer clients when the backend server is too old to offer one
+- [ayunViaProxyShared](https://github.com/ayunami2000/ayunViaProxyShared): Turns ViaProxy Into a Public Instance with web authentication(maybe it's useful for address_port_version.viaproxy.hostname users.)
