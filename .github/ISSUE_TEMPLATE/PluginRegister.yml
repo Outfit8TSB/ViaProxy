@@ -1,0 +1,24 @@
+name: Register Plugins
+description: Add Your Plugin to Github Wiki!
+title: "[PLUGIN]: "
+assignees:
+  - Lenni0451
+  - RaphiMC
+  - FlorianMichael
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: plugin-description
+    attributes:
+      label: Plugin Description
+      description: What is your plugin do?
+      placeholder: Tell us what this does!
+  - type: textarea
+    id: viaproxy-plugin
+    attributes:
+      label: viaproxy.yml for Plugin
+      description: Please Copy the whole viaproxy.YML File into this section!
+      render: shell
