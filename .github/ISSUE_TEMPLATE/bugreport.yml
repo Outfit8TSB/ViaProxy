@@ -43,7 +43,7 @@ body:
         Describe the unexpected behavior.
         If you want to attach screenshots, use the comment field at the bottom of the page.
       placeholder: |
-        Example: "Placing signs on 1.21.3 causes text to disappear."
+        Example: "i cannot login properly."
     validations:
       required: true
 
@@ -54,9 +54,8 @@ body:
         List the steps on how we can reproduce the issue. Make sure we can easily understand what you mean with each step.
       placeholder: |
         Example:
-        1. Login with a 1.21.3 client
-        2. Place a sign
-        3. The sign text is displayed wrong
+        1. Login with a 1.21.1 Client as a b1.7-b1.7.3
+        2. see the error
     validations:
       required: true
 
@@ -66,7 +65,7 @@ body:
       description: |
         Describe what exactly you expected to happen.
       placeholder: |
-        Example: "Placed sign text should not disappear."
+        Example: "i should log on properly."
     validations:
       required: true
       
